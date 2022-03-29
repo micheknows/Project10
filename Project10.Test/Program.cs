@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Web_Database.Dal;
 
 namespace Web_Database.Test
 {
@@ -11,7 +12,7 @@ namespace Web_Database.Test
         static void Main(string[] args)
         {
             CustomerAdapter adapter = new CustomerAdapter();
-            List customers = adapter.GetAll();
+            List<Customer> customers = adapter.GetAll();
 
             foreach (Customer customer in customers)
             {

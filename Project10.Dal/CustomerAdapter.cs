@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data.Common;
+using System.Data.SQLite;
 
 namespace Web_Database.Dal
 {
@@ -7,10 +8,10 @@ namespace Web_Database.Dal
     {
         private string _connectionString = @"Data Source=C:\Sqlite\BikeShop.db; datetimeformat=CurrentCulture;";
 
-        public List<> GetAll()
+        public List<Customer> GetAll()
         {
             // Declare the return type
-            List returnValue = new List();
+            List<Customer> returnValue = new List<Customer>();
             // Create a connection to SQL lite. Wrap in a using statement for safety
             using (SQLiteConnection connection = new SQLiteConnection(_connectionString))
             {
