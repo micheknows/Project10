@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project10.Dal
+namespace Web_Database.Dal
 {
     class InvoiceAdapter
     {

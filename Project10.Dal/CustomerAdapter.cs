@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data.Common;
 
-namespace Project10.Dal
+namespace Web_Database.Dal
 {
     public class CustomerAdapter
     {
