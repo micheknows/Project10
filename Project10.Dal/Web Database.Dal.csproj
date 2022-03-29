@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cusomter.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="CustomerAdapter.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="InvoiceAdapter.cs" />
