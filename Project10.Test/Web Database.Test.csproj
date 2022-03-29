@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Project10.Dal\Project10.Dal.csproj">
+    <ProjectReference Include="..\Project10.Dal\Web Database.Dal.csproj">
       <Project>{f919cb92-11ae-4963-bf92-61bd0a4e78ba}</Project>
-      <Name>Project10.Dal</Name>
+      <Name>Web Database.Dal</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

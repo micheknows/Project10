@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project10", "Project10.csproj", "{D2BCDEA2-F322-4CDC-9543-19F0FFBB3F96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Database", "Web Database.csproj", "{D2BCDEA2-F322-4CDC-9543-19F0FFBB3F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project10.Dal", "..\Project10.Dal\Project10.Dal.csproj", "{F919CB92-11AE-4963-BF92-61BD0A4E78BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Database.Dal", "..\Project10.Dal\Web Database.Dal.csproj", "{F919CB92-11AE-4963-BF92-61BD0A4E78BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project10.Test", "..\Project10.Test\Project10.Test.csproj", "{EF81C51A-6024-44AB-9E80-D6D53CDAB9BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Database.Test", "..\Project10.Test\Web Database.Test.csproj", "{EF81C51A-6024-44AB-9E80-D6D53CDAB9BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
