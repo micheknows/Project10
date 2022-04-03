@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.Data.Common;
+using System.Diagnostics;
 
 namespace Lesson10.Dal
 {
     public class CustomerAdapter
     {
         private string _connectionString = @"Data Source= Chinook_Sqlite_AutoIncrementPKs.sqlite; datetimeformat=CurrentCulture;";
+
 
         public List<Customer> GetAll()
         {
@@ -25,6 +27,7 @@ namespace Lesson10.Dal
 
                 command.CommandText = "SELECT CustomerId, FirstName, LastName, Country, Email FROM Customer";
                 // Open the database connection
+               
                 connection.Open();
                 // Execute a command and return back a reader
                 SQLiteDataReader reader = command.ExecuteReader();
@@ -35,9 +38,10 @@ namespace Lesson10.Dal
                     // add the instance to the return list
                     returnValue.Add(customer);
                 }
+                connection.Close();
                 //return back the results
                 return returnValue;
-            }
+                }
         }
 
         public Customer GetById(int customerId)
